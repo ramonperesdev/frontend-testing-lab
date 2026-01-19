@@ -1,0 +1,144 @@
+.user-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-card--loading,
+.user-card--error,
+.user-card--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.spinner {
+  text-align: center;
+}
+
+.spinner-text {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.user-card--error {
+  border-color: #f44336;
+  background-color: #ffebee;
+}
+
+.error-message {
+  text-align: center;
+}
+
+.error-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.error-message p {
+  color: #c62828;
+  margin: 0;
+}
+
+.empty-state {
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  opacity: 0.5;
+}
+
+.empty-state p {
+  color: #666;
+  margin: 0;
+}
+
+.user-card__header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.user-card__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #646cff;
+}
+
+.user-card__content {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.user-card__name {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.user-card__email {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.user-card__role {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: #646cff;
+  color: white;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.user-card__actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.user-card__button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.user-card__button--edit {
+  background-color: #646cff;
+  color: white;
+}
+
+.user-card__button--edit:hover {
+  background-color: #535bf2;
+}
+
+.user-card__button--delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.user-card__button--delete:hover {
+  background-color: #d32f2f;
+}
+
+.user-card__button:active {
+  transform: scale(0.98);
+}
