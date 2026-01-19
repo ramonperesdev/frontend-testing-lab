@@ -25,9 +25,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## 📚 Próximos Passos
-
-- [ ] Configurar bibliotecas de teste
-- [ ] Escrever primeiros testes
-- [ ] Explorar diferentes tipos de testes (unitários, integração, E2E)
