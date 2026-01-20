@@ -1,0 +1,24 @@
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #646cff;
+  display: block;
+}
+
+.avatar--small {
+  width: 40px;
+  height: 40px;
+  border-width: 2px;
+}
+
+.avatar--medium {
+  width: 80px;
+  height: 80px;
+  border-width: 3px;
+}
+
+.avatar--large {
+  width: 120px;
+  height: 120px;
+  border-width: 4px;
+}

@@ -66,12 +66,9 @@
   margin-bottom: 1rem;
 }
 
-.user-card__avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #646cff;
+.user-card__header {
+  display: flex;
+  justify-content: center;
 }
 
 .user-card__content {
